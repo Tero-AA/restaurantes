@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+}
+
+body { background-color: whitesmoke;}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: 600px;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+/* Header */
+
+.static-bar {
+    width: 350px;
+    position: fixed;
+    display: flex;
+    color: white;
+    background-color: SeaGreen;
+    justify-content: center;
+}
+
+.static-bar h1 {
+    font-size: 16px;
+}
+
+/* Restaurants */
+
+.restaurants {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.post {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    color: grey;
+    width: 350px;
+    border: 2px;
+    border-radius: 3px;
+    padding: 5px 0px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.restaurants .post .img img {
+    width: 125px;
+    padding-left: 10px;
+}
+
+.restaurants .post .content {
+    padding: 10px;
+    font-size: 12px;
+}
+
+.restaurants .post .content .reviews .fas.fa-star {
+    color: SeaGreen;
+}
+
+/* Navigation bar bottom */
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: whitesmoke;
+    width: 350px;
+    height: 73px;
+    margin-left: 5px;
+    margin-bottom: 0px;
+}
+
+.nav .center .fas.fa-plus {
+    color: white;
+    text-decoration: none;
+    font-size: 32px;
+}
+
+.nav .border .center {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: seagreen;
+    padding: 10px;
+}
+
+.nav .border {
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding: 6px;
+}
+
+.button {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav .button a {
+    padding: 10px 30px;
+}
+
+.nav .button .fas.fa-home {
+    font-size: 24px;
+    text-decoration: none;
+    color: grey;
+}
+
+.nav .button .fas.fa-user-alt {
+    font-size: 24px;
+    text-decoration: none;
+    color: grey;
+}
+
+.nav .button .fas.fa-cog {
+    font-size: 24px;
+    text-decoration: none;
+    color: grey;
+}
+
+.nav .button .fas.fa-comments {
+    font-size: 24px;
+    text-decoration: none;
+    color: grey;
+}
